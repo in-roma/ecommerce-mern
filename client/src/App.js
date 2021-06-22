@@ -1,17 +1,13 @@
 import './App.css';
-import { Container } from 'react-bootstrap';
-import Header from './components/Header';
-import Footer from './components/Footer';
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<main>
-				<Container>
-					<h1>Project</h1>
-				</Container>
-			</main>
+
 			<Footer />
 		</>
 	);
