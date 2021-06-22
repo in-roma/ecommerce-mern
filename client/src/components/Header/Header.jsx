@@ -4,7 +4,7 @@ import './header.scss';
 const Header = () => {
 	return (
 		<header className="navBar">
-			<div className="logo">PROSHOP</div>
+			<div className="logo">PRO SHOP</div>
 
 			<div className="menu">
 				<div className="menu-button cart">

@@ -1,0 +1,9 @@
+.home-screen {
+	width: 100%;
+	height: auto;
+
+	// Child
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	gap: 2rem;
+}
